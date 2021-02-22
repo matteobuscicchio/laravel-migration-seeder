@@ -32,7 +32,7 @@ class CoursesSeeder extends Seeder
 
         foreach ($CoursesList as $courses) {
             $course = new Course();
-            $courss->name = $course['name'];
+            $course->name = $courses['name'];
             $course->save();
         }
 
